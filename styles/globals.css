@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+ * Global styles for the marketing news application.
+ *
+ * Tailwind's base, components and utilities layers are imported above.
+ * Additional global styles can be added below. For example, here we
+ * set a light background and default text colour to keep the design
+ * clean and easy on the eyes. Feel free to tweak these values to
+ * achieve the desired visual impact.
+ */
+body {
+  @apply bg-gray-50 text-gray-800;
+}
